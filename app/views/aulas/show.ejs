@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../shared/head', { title: "Projeto torne-se um programador - aulas" }) %>
+  </head>
+  <body class="home">
+    <%- include('../shared/header', {display_loading: 'block'}) %>
+    <div class="container">
+      <br>
+      <div class="buttons aula">
+        <a class="button" href="/aulas" >Voltar</a>
+      </div>
+      <div>
+        <div id="video_container">
+          <h3 id="titulo"></h3>
+          <p id="descricao"></p>
+          <div id="video"></div>
+          <div id="fb-root"></div>
+          <%- include('../shared/share') %>
+        </div>
+      </div>
+    </div>
+    <%- include('../shared/adsense') %>
+    <%- include('../shared/form') %>
+    <%- include('../shared/facelike') %>
+    <%- include('../shared/footer') %>
+    <script type="text/javascript" src="https://rawgit.com/Didox/torne-se/master/data/data.js"></script>
+  </body>
+</html>

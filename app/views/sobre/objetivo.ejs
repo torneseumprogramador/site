@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../shared/head', { title: "Projeto torne-se um programador - objetivo" }) %>
+  </head>
+  <body class="home">
+    <%- include('../shared/header', {display_loading: 'none'}) %>
+    <div class="container">
+      <div>
+        <h3>Futuro do Projeto torne-se um programador</h3>
+        <p>
+          Para entender assista o video abaixo:
+        </p>
+
+        <iframe class="fluxo_video" onload='app.hideLoading()' src='https://www.youtube.com/embed/SbAmLb6gQDU' frameborder='0' allowfullscreen>
+        </iframe>
+      </div>
+      <br>
+      <div class="buttons sobre">
+        <a class="button" href="/sobre">Sobre</a>
+      </div>
+    </div>
+    <%- include('../shared/adsense') %>
+    <%- include('../shared/footer') %>
+  </body>
+</html>

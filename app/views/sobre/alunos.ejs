@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../shared/head', { title: "Projeto torne-se um programador - alunos" }) %>
+  </head>
+  <body class="home">
+    <%- include('../shared/header', {display_loading: 'none'}) %>
+    <div class="container">
+      <div>
+        <h3>Projeto torne-se um programador para os alunos</h3>
+        <p>
+          O objetivo é ajudar você aluno a entrar na área de tecnologia, se tornando um programador, muito me perguntam, em qual linguagem? Meu objetivo não é focar somente em uma linguagem com vocês e sim transforma-los em programadores, assim vocês mesmos encolhem as linguagens que preferem trabalhar.
+          <br>
+          <br>
+          <br>
+          Entenda mais através do video abaixo:
+        </p>
+
+        <iframe class="fluxo_video" onload='app.hideLoading()' src='https://www.youtube.com/embed/8nMhZ_dH5ew' frameborder='0' allowfullscreen>
+        </iframe>
+
+        <p class="fluxo">
+          Fluxo: <a href="/fluxo_alunos.html" target="_blank"> link </a>
+        </p>
+
+      </div>
+      <br>
+      <div class="buttons sobre">
+        <a class="button" href="/sobre">Voltar</a>
+      </div>
+    </div>
+    <%- include('../shared/adsense') %>
+    <%- include('../shared/footer') %>
+  </body>
+</html>

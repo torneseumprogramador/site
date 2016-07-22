@@ -1,0 +1,23 @@
+{
+  "name": "torne-se-site",
+  "version": "0.0.1",
+  "description": "Projeto torne-se um programador",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "morgan": "1.2.3",
+    "newrelic": "*"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}

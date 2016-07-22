@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../shared/head', { title: "Projeto torne-se um programador" }) %>
+  </head>
+  <body class="home">
+    <%- include('../shared/header', {display_loading: 'none'}) %>
+    <div class="container">
+      <div class="top-image">
+        <img class="image-capa" src="/imagens/facebookCover.png">
+      </div>
+      <p>
+        Com ele você irá aprender tudo que precisa para se tornar um programador.
+      </p>
+      <p>
+        <u>Toda <b>Quarta-feira</b> uma nova aula.</u>
+      </p>
+      <br>
+      <div class="buttons">
+        <a class="button" href="/aulas">Aulas</a>
+        <a class="button" href="https://github.com/Didox/torne-se-programador" target="_blank">Códigos</a>
+        <a class="button" href="/vagas">Vagas</a>
+        <a class="button" href="/sobre">Sobre</a>
+      </div>
+      <%- include('../shared/download') %>
+      <%- include('../shared/share') %>
+    </div>
+    <%- include('../shared/form') %>
+    <%- include('../shared/adsense') %>
+    <%- include('../shared/facelike') %>
+    <div class="container pague">
+      <div class="top">
+        <h3>Futuro do projeto</h3>
+        <a href="/sobre/objetivo">
+          <img class="image-tornese" src="/imagens/torne-se-image.jpg">
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+    <%- include('../shared/footer') %>
+  </body>
+</html>
